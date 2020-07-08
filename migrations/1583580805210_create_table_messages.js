@@ -18,5 +18,5 @@ module.exports = {
 
       cb();
   },
-  "down": "DROP TABLE `messages`;"
+  "down": "DROP TABLE `dogs`; DROP table `owners`;"
 }
